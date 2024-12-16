@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 const RecentExpenses = () => {
   return (
     <View>
-      <Text>Recent Expenses</Text>
+      <Text>Recent Expenses Screen</Text>
     </View>
   );
 };
