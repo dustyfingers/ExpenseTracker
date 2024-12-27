@@ -13,9 +13,15 @@ const ManageExpense = ({ route, navigation }) => {
       title: isEditing ? "Edit Expense" : "Add Expense",
     });
   }, [navigation, isEditing]);
-  const deleteExpenseHandler = () => {};
-  const cancelHandler = () => {};
-  const confirmHandler = () => {};
+  const deleteExpenseHandler = () => {
+    navigation.goBack();
+  };
+  const cancelHandler = () => {
+    navigation.goBack();
+  };
+  const confirmHandler = () => {
+    navigation.goBack();
+  };
   return (
     <View style={styles.container}>
       <View style={styles.buttonsContainer}>
